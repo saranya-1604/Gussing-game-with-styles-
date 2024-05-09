@@ -1,0 +1,20 @@
+<input id="0" type="number" placeholder="num1" ><br>
+<input id="t" type="number" placeholder="num2" ><br>
+<button onclick="add()">add</button>
+<p id="re">result</p>
+<script>
+    
+    function add(){
+        var r1=document.getElementById("0")
+    var r2=document.getElementById("t")
+    var rel=document.getElementById("re")
+    console.log(r1.value)
+    console.log(r2.value)
+    var re=Number(r1.value)+Number(r2.value)
+    console.log(re)
+   
+    rel.textContent=re}
+    
+   
+</script>
+

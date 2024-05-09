@@ -1,0 +1,30 @@
+.o{
+    padding-top: 20px;
+    color:rgb(12, 11, 11)
+    
+}
+#one{
+    font-size: 15px;
+    background-color:rgb(146, 196, 196);
+    color: black;
+}
+#t{
+    background-color: rgb(13, 173, 125);
+}
+::placeholder{
+    color: black;
+}
+#th{
+    font-size: 20px;
+    color: rgb(212, 209, 30);
+}
+#f{
+    font-size: 20px;
+    color: rgb(204, 159, 37);
+}
+.j{
+    width: 50%;
+    height: 40%;
+    background-color: teal;
+    margin-top: 150px;
+}

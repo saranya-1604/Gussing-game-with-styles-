@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="style.css">
+<center>
+    <div class="j">
+<h1 class="o">Guess the number</h1>
+<input id="one"placeholder="ENTER NUMBER">
+
+<button id="t" onclick="check()">check</button>
+<p id="th">TRY</p>
+<p id="f">score:10</p>
+<script>
+    var fa=10;
+    var ran=Math.floor(Math.random()*10+1)
+    console.log(ran)
+    function check(){
+    var inp=document.getElementById("one")
+    var but=document.getElementById("t")
+    var pa=document.getElementById("th")
+    
+    var fo=document.getElementById("f")
+    
+    if(ran==inp.value){
+    pa.textContent="Right :)"
+    alert("YOU WON...YEAH!!!!")
+    }
+    
+    else{
+        pa.textContent="Wrong :("
+        fa--
+        f.textContent="score: "+ fa
+    }
+    }
+</script>
+</div>
+</center>
